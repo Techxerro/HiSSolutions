@@ -1,0 +1,33 @@
+*{
+  font-family: "Manrope", sans-serif!important;
+  font-optical-sizing: auto;
+}
+
+.btnprimary{
+  padding:10px 18px;
+  font-size:15px;
+  background-color: #ff4d00;
+  color:#fff;
+  border-radius:8px;
+  border:none;
+  transition: 0.7s ease;
+  &:hover{
+    scale:1.05;
+    transition: 0.6s ease;
+  }
+}
+
+.btnsecondary{
+  padding:10px 18px;
+  font-size:15px;
+  background-color: #fff;
+  color:#000;
+  border-radius:8px;
+  border:none;
+  transition: 0.7s ease;
+  &:hover{
+    scale:1.05;
+    transition: 0.6s ease;
+  }
+}
+

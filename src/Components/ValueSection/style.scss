@@ -1,0 +1,27 @@
+.valuesection{
+    padding:50px 0;
+    text-align: center;
+    h1{
+        font-size: 60px;
+        font-weight: 700;
+        padding-bottom: 30px;
+    }
+    .iconbox{
+        img{
+            width:150px;
+            height:125px;
+            object-fit: contain;
+            padding: 10px;
+        }
+    }
+}
+
+
+@media (max-width:560px){
+    .valuesection{
+        h1{
+            font-size: 40px;
+            font-weight: 600;
+        }
+    }
+}
