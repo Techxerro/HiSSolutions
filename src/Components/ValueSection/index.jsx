@@ -9,7 +9,7 @@ const Valuesection=()=>{
                 <div className="container">
                     <div className="row">
                         <div className="col-12 ">
-                            <h1>Our Values Proposition</h1>
+                            <h1 data-aos="fade-up" data-aos-delay="200">Our Values Proposition</h1>
                         </div>
 
                         <div className="col-sm-4 col-12">

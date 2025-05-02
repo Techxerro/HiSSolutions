@@ -51,3 +51,31 @@
         top: 15%;
     }
 }
+
+// Mobile 
+@media (max-width:'580px') {
+    .countdownsection{
+        padding:40px 10px;
+        .ellipsebg{
+            width:100dvw;
+        }
+        .d-flex{
+            gap:45px;.ct1{
+                h2{
+                    font-size: 35px;
+                }
+                span{
+                    font-size: 22px;
+                }
+            }
+        }
+        h4{
+            font-size: 24px;
+        }
+        p{
+            font-size: 16px;
+        }
+
+        
+    }
+}

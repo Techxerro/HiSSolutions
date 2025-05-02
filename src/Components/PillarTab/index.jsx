@@ -94,7 +94,7 @@ const PillarTabs =()=>{
             <div className=" container">
                 <div className="row">
                     <div className="col-12">
-                        <h1 data-aos="fade-left" data-aos-anchor-placement="bottom-center">The Pillars of Our Practice</h1>
+                        <h1 data-aos="fade-left">The Pillars of Our Practice</h1>
                     </div>
                     <div className="col-12">
                         <div className='tabbtninner'>

@@ -8,9 +8,9 @@ const CountdownSection = () =>{
             <section className="countdownsection">
                 <div className="container">
                     <div className="row">
-                        <div className="col-7">
+                        <div className="col-lg-7 col-12">
                             <img src={image.bgellipse} alt="" className="ellipsebg"/>
-                            <h1>From Local to Global—
+                            <h1 data-aos="fade-up" data-aos-delay="300">From Local to Global—
                             We’ve Done It All</h1>
                             <div className="d-flex">
                                 <div className="ct1">
@@ -30,8 +30,8 @@ const CountdownSection = () =>{
                             </svg> */}
 
                         </div>
-                        <div className="col-5">
-                            <img src={image.map} alt="" className="bgmap" />
+                        <div className="col-lg-5 col-12">
+                            <img src={image.map} alt="" className="bgmap"  data-aos="zoom-in" data-aos-delay="500"/>
                         </div>
                     </div>
                 </div>

@@ -57,6 +57,7 @@ const TestimonySection = () =>{
                             <h1>What Our Clients Say</h1>
                         </div>
                         <div className="col-12">
+                            
                         <Swiper
                             slidesPerView={1}
                             centeredSlides={true}
@@ -99,7 +100,9 @@ const TestimonySection = () =>{
                                         )
                                     })
                                 }
+
                         </Swiper>
+
                         </div>
                     </div>
                 </div>

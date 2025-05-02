@@ -169,3 +169,29 @@
         }
     }
 }
+
+@media (max-width:560px) {
+    .brandsection{
+        padding:40px 10px 0;
+        h1{
+            padding-bottom:10px ;
+        }
+        h3{
+            font-size: 18px;
+        }
+        .brands{
+            padding:25px 0;
+            gap:35px;
+        }
+        p{
+            font-size: 15px;
+        }
+        .blob-outer-wrap{
+            display: none;
+        }
+
+        .cont2{
+            padding:20px 0;
+        }
+    }
+}

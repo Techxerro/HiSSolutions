@@ -15,7 +15,7 @@ const Header = ()=>{
     useEffect(()=>{
         const menulist = document.querySelectorAll('.menu ul li a');        
         for(let x = 0; x<menulist.length; x++){
-            if(window.location.href==menulist[x].href){
+            if(window.location.href===menulist[x].href){
                 menulist[x].parentElement.classList.add('active');
             }
             else if(window.location.href=="#contact"){

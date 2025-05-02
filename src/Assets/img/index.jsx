@@ -11,7 +11,11 @@ import logo4 from './logo4.png';
 import map from './map.png';
 import profileimg1 from './client1.png';
 import bgellipse from './bgellips.png';
+import cncellipse from './cnc-ellipse.png';
 import tabimg1 from './tabimg1.png';
+import founderimg from './founderimg.png';
+import footerlogo from './Footerlogo.png';
+
 
 
 export const image={
@@ -28,5 +32,8 @@ export const image={
     profileimg1,
     map,
     bgellipse,
+    cncellipse,
     tabimg1,
+    founderimg,
+    footerlogo,
 }

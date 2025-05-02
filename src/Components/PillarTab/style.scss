@@ -1,5 +1,6 @@
 .pillartabsection{
     padding:50px 0 100px;
+    overflow:hidden;
     h1{
         font-size: 65px;
         font-weight: 700;
@@ -114,8 +115,10 @@
     }
 }
 
+// Mobile
 @media (max-width:560px){
     .pillartabsection{
+        padding:40px 10px;
         h1{
             font-size: 40px;
             font-weight: 700;
@@ -145,11 +148,12 @@
     }
     .tabcontent-outer{
         .tabcontent-inner{
-            height:500px!important;
-            padding: 20px!important;
+            height:480px!important;
+            padding: 20px!important;            
+            margin-bottom: 20px!important;
             div{
                 h3{
-                    font-size: 38px!important;
+                    font-size: 30px!important;
                     width:85%!important;
                 }
                 p{
