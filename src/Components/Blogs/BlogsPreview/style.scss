@@ -1,0 +1,39 @@
+.blogpreviewsection{
+    padding:40px 0;
+
+    .blog-box{   
+        padding-bottom: 30px; 
+        .imgcover{  
+            height: 400px;
+            width:400px;
+            overflow: hidden;
+            border-radius: 25px;
+            img{
+                width:100%;
+                scale:1;
+                transition: 0.8s linear;
+            }
+        } 
+        h2{
+            font-size: 23px;
+            font-weight: 600;
+            padding:10px 0 5px;
+        }
+        p{
+            font-size: 15px;
+            color:#666666;
+        }
+        &:hover{
+            img{
+                scale:1.1;
+                transition:0.6s ease;
+            }
+        }
+    }
+}
+
+@media (max-width:992px){
+    .blogpreviewsection{
+        padding:40px 10px;
+    }
+}

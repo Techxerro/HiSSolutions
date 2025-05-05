@@ -2,6 +2,7 @@ import { Navigate, useRoutes } from "react-router-dom";
 import Layout from "../View/Layout/Layout";
 import Home from "../View/Pages/Home";
 import Errorpage from "../View/Pages/Errorpage";
+import Blog from "../View/Pages/Blog";
 
 const Routes =()=>{
     const element = useRoutes([
@@ -13,10 +14,10 @@ const Routes =()=>{
                     path:'/',
                     element:<Home/>
                 }, 
-                // {
-                //     path:'/about',
-                //     element:<About/>
-                // }, 
+                {
+                    path:'/blog',
+                    element:<Blog/>
+                }, 
                 // {
                 //     path:'/services',
                 //     element:<Services/>

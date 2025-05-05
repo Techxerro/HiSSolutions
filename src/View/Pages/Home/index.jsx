@@ -1,16 +1,16 @@
 import React from "react";
 import './style.scss';
-import HeroSection from "../../../Components/HeroSection/index.jsx";
-import BuiltSection from "../../../Components/builtsection/index.jsx";
-import Valuesection from "../../../Components/ValueSection/index.jsx";
-import Brandsection from "../../../Components/brandsection/index.jsx";
-import PillarTabs from "../../../Components/PillarTab/index.jsx";
-import TestimonySection from "../../../Components/Testimonialsection/index.jsx";
-import CountdownSection from "../../../Components/Countdownsection/index.jsx";
-import FounderSection from "../../../Components/FounderSection/FounderSection.jsx";
-import CnCsection from "../../../Components/C&Csection/index.jsx";
-import FAQSection from "../../../Components/FAQsection/index.jsx";
-import CTASection from "../../../Components/CTAsection/index.jsx";
+import HeroSection from "../../../Components/Home/HeroSection/index.jsx";
+import BuiltSection from "../../../Components/Home/builtsection/index.jsx";
+import Valuesection from "../../../Components/Home/ValueSection/index.jsx";
+import Brandsection from "../../../Components/Home/brandsection/index.jsx";
+import PillarTabs from "../../../Components/Home/PillarTab/index.jsx";
+import TestimonySection from "../../../Components/Home/Testimonialsection/index.jsx";
+import CountdownSection from "../../../Components/Home/Countdownsection/index.jsx";
+import FounderSection from "../../../Components/Home/FounderSection/FounderSection.jsx";
+import CnCsection from "../../../Components/Home/C&Csection/index.jsx";
+import FAQSection from "../../../Components/Home/FAQsection/index.jsx";
+import CTASection from "../../../Components/Home/CTAsection/index.jsx";
 
 
 const Home = ()=>{
