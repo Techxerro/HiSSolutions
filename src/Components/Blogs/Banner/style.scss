@@ -1,4 +1,4 @@
-.hero-section{
+.blogbanner-section{
     background:url('../../../Assets/img/blogsbg.png');
     background-size: cover!important;
     background-position: center center;
@@ -19,7 +19,7 @@
 
 // tablet
 @media (max-width:992px){
-    .hero-section{
+    .blogbanner-section{
         height:500px;
         .content-hero{
             h1{
@@ -37,7 +37,7 @@
 
 // Mobile
 @media (max-width:560px){
-    .hero-section{
+    .blogbanner-section{
         height:550px;
         .content-hero{
             padding: 0 10px;

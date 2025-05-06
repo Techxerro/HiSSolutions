@@ -4,7 +4,7 @@ import './style.scss';
 const BlogBanner=()=>{
     return(
         <>
-        <div className="hero-section">        
+        <div className="blogbanner-section">        
             <div className="container">
                 <div className="row">
                     <div className="col-12">

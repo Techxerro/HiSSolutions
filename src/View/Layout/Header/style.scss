@@ -28,7 +28,7 @@ header{
                 li{
                     a{
                         color:#000;
-                        font-size: 16.5px;
+                        font-size: 15px;
                         font-weight: 400;
                         opacity: 0.65;
                         text-transform: capitalize;
@@ -41,6 +41,7 @@ header{
                 .active{
                     a{
                         color:#000;
+                        font-weight:500;
                         opacity: 1;
                     }
                 }

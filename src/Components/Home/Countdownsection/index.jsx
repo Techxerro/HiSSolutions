@@ -1,8 +1,22 @@
-import React from "react";
+import {React, useEffect, useState} from "react";
 import { image } from "../../../Assets/img";
 import './style.scss';
+import CountUp from 'react-countup';
+
 
 const CountdownSection = () =>{
+    // const [count, setCount] = useState(80);
+
+    // useEffect(() => {
+    //   if (count === 0) return;
+  
+    //   const timer = setInterval(() => {
+    //     setCount(prev => prev - 1);
+    //   }, 1000);
+  
+    //   return () => clearInterval(timer); // Clean up on unmount or re-render
+    // }, [count]);
+
     return(
         <>
             <section className="countdownsection">
