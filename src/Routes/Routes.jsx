@@ -3,6 +3,7 @@ import Layout from "../View/Layout/Layout";
 import Home from "../View/Pages/Home";
 import Errorpage from "../View/Pages/Errorpage";
 import Blog from "../View/Pages/Blog";
+import About from "../View/Pages/About";
 
 const Routes =()=>{
     const element = useRoutes([
@@ -13,6 +14,10 @@ const Routes =()=>{
                 {
                     path:'/',
                     element:<Home/>
+                }, 
+                {
+                    path:'/about',
+                    element:<About/>
                 }, 
                 {
                     path:'/blog',

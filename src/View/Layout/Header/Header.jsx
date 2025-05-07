@@ -18,7 +18,7 @@ const Header = ()=>{
             if(window.location.href===menulist[x].href){
                 menulist[x].parentElement.classList.add('active');
             }
-            else if(window.location.href=="#contact"){
+            else if(window.location.href==="#contact"){
                 //do nothing
             }
         }

@@ -1,0 +1,44 @@
+.intro-sec{
+    padding:100px 0;
+    position: relative;
+
+    h1{
+        font-size: 70px;
+        font-weight: 800;
+    }
+    p{
+        border-left:2px solid #ff4c00;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .ellipsebg{
+        position: absolute;
+        left:0;
+        bottom:5%;
+        width: 50%;
+        z-index: -1;
+    }
+    .c-text{
+        text-align: center;
+        padding: 100px 0 0;
+        h2{
+            font-size: 70px;
+            font-weight: 700;
+            color:#ff4c00;
+            padding-bottom: 15px;
+            span{
+                color:#000;
+            }
+        }
+        h4{
+            font-size: 28px;
+            font-weight: 600;
+            
+        }
+        p{
+            font-size: 19px;
+            border: none;
+            padding: 0;
+        }
+    }
+}

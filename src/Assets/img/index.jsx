@@ -23,6 +23,8 @@ import blogp5 from './blogp5.png';
 import blogp6 from './blogp6.png';
 import blogp7 from './blogp7.png';
 import blogp8 from './blogp8.png';
+import abtbgellipse from './bgellipsabout.png';
+import abtfounderimg from './abtfounderimg.png';
 
 
 export const image={
@@ -40,6 +42,7 @@ export const image={
     map,
     bgellipse,
     cncellipse,
+    abtbgellipse,
     tabimg1,
     founderimg,
     footerlogo,
@@ -51,4 +54,5 @@ export const image={
     blogp6,
     blogp7,
     blogp8,
+    abtfounderimg,
 }
