@@ -1,18 +1,20 @@
 .blogbanner-section{
     background:url('../../../Assets/img/blogsbg.png');
     background-size: cover!important;
-    background-position: center center;
+    background-position: bottom center;
     height:700px;
     display: flex;
     // justify-content: center;
-    align-items: end;
-    padding-bottom: 90px;
+    align-items: center;
     .content-hero{
-        text-align: left;
+        text-align: center;
         color:#fff;
         h1{
-            font-size:60px;
+            font-size:70px;
             font-weight: 700;
+        }
+        p{
+            font-size: 16px;
         }
     }
 }

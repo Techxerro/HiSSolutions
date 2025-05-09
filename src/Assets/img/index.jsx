@@ -25,7 +25,11 @@ import blogp7 from './blogp7.png';
 import blogp8 from './blogp8.png';
 import abtbgellipse from './bgellipsabout.png';
 import abtfounderimg from './abtfounderimg.png';
-
+import abticon1 from './abticon1.png';
+import abticon2 from './abticon2.png';
+import abticon3 from './abticon3.png';
+import abticon4 from './abticon4.png';
+import book from './red-hardcover-book-front-cover.png'
 
 export const image={
     logo,
@@ -55,4 +59,9 @@ export const image={
     blogp7,
     blogp8,
     abtfounderimg,
+    abticon1,
+    abticon2,
+    abticon3,
+    abticon4,
+    book,
 }

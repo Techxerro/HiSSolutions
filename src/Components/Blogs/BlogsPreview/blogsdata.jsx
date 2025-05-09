@@ -4,36 +4,36 @@ const  blogsdata =[
     {
         id:1,
         date:'24 March 2025',
-        title:'Blame Culture & Accountability Avoidance',
-        desc:'In many organizations, people are more concerned with protecting themselves than with finding solutions...',
+        title:'The Lost Art of Problem-Solving: Why We Fix Symptoms Instead of Root Causes',
+        desc:'Understand why so many strategies fail — and why success demands solving the real issues, not just patching visible problems.',
         img:image.blogp1,
     },
     {
         id:2,
         date:'24 March 2025',
-        title:'Short-Term Thinking & Quick Wins Over Lasting Impact',
-        desc:'Businesses are often pressured to deliver fast results. Executives and managers focus on short-term perform...',
+        title:'The Responsibility of Leadership: Upholding Truth in a World of Convenience',
+        desc:"Explore why true leadership today means standing for principles when it's hardest — not when it's easiest.",
         img:image.blogp2
     },
     {
         id:3,
         date:'24 March 2025',
-        title:'Over-Reliance on Tools Instead of Critical Thinking',
-        desc:'In today’s data-driven world, companies rely heavily on dashboards, reports, and analytics. While these...',
+        title:'Life Dysmorphia: The Paradox of Modern Prosperity',
+        desc:'Reflect on how more "success" often leads to less meaning — and what businesses and leaders must remember in the pursuit of sustainable growth.',
         img:image.blogp3
     },
     {
         id:4,
         date:'24 March 2025',
-        title:'Bureaucratic Barriers & Resistance to Change',
-        desc:'Many organizations have deeply ingrained processes that are difficult to challenge. Fixing root causes...',
+        title:'Ethics Over Ego: Rediscovering the Lost Art of Integrity',
+        desc:'Learn why integrity is the ultimate business strategy — and why organizations built on values outperform those built on shortcuts.',
         img:image.blogp4
     },
     {
         id:5,
         date:'24 March 2025',
-        title:'Build a Culture of Accountability, Not Blame',
-        desc:'Leaders must foster an environment where employees feel safe identifying and discussing the real issue...',
+        title:'Beyond the Hustle: Aristotle’s Wisdom for Today’s World',
+        desc:'Discover why ancient philosophy still holds the key to sustainable success in today’s hyper-competitive markets.',
         img:image.blogp5
     },
     {

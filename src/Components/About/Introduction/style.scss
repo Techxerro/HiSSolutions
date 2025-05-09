@@ -1,0 +1,125 @@
+.intro-sec{
+    padding:100px 0;
+    position: relative;
+
+    h1{
+        font-size: 70px;
+        font-weight: 800;
+    }
+    p{
+        border-left:2px solid #ff4c00;
+        padding-left: 30px;
+        font-size: 20px;
+    }
+    .ellipsebg{
+        position: absolute;
+        left:0;
+        bottom:5%;
+        width: 50%;
+        z-index: -1;
+    }
+    .c-text{
+        text-align: center;
+        padding: 100px 0 0;
+        h2{
+            font-size: 70px;
+            font-weight: 700;
+            color:#ff4c00;
+            padding-bottom: 15px;
+            span{
+                color:#000;
+            }
+        }
+        h4{
+            font-size: 28px;
+            font-weight: 600;
+            
+        }
+        p{
+            font-size: 19px;
+            border: none;
+            padding: 0;
+        }
+    }
+}
+
+@media (max-width:1024px){ 
+    .intro-sec{
+        padding: 50px 15px;
+        h1{
+            font-size: 55px;
+            padding-bottom:10px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+@media (max-width:768px){ 
+    .intro-sec{
+        padding: 50px 15px;
+        h1{
+            padding-bottom:10px;
+        }
+        p{
+            font-size: 18px;
+        }
+        .ellipsebg{
+            position: absolute;
+            left:0;
+            top:20%;
+            width: 60%;
+            z-index: -1;
+        }
+        .c-text{
+            padding:50px 0 0;
+            h2{
+                font-size: 35px;
+            }
+            h4{
+                font-size: 24px;
+            }
+            p{
+                font-size: 16px;
+                br{
+                    display: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width:560px){
+    .intro-sec{
+        padding: 50px 15px;
+        h1{
+            padding-bottom:10px;
+        }
+        p{
+            font-size: 18px;
+        }
+        .ellipsebg{
+            position: absolute;
+            left:0;
+            top:10%;
+            width: 100%;
+            z-index: -1;
+        }
+        .c-text{
+            padding:50px 0 0;
+            h2{
+                font-size: 35px;
+            }
+            h4{
+                font-size: 24px;
+            }
+            p{
+                font-size: 16px;
+                br{
+                    display: none;
+                }
+            }
+        }
+    }
+}

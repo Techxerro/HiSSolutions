@@ -1,0 +1,38 @@
+.Blog-CTA-section{
+    padding:100px 0 100px;
+    text-align: center;
+    h1{
+        font-size: 70px;
+        font-weight: 700;
+        padding-bottom: 15px;
+    }
+
+    h5{
+        font-size: 26px;
+        font-weight: 600;
+        color:#4B4B4B;
+    }
+
+    .btn-wrapper{
+        padding:25px 0;
+        button{
+            padding:auto 20px;
+            font-weight:bold;
+        }
+    }
+}
+
+@media (max-width:560px) {
+    .Blog-CTA-section{
+        padding:40px 10px;
+        h5{
+            font-size: 20px;
+            br{
+                display: none;
+            }
+        }
+        .btn-wrapper{
+            padding:10px 0;
+        }
+    }
+}

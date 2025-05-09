@@ -1,6 +1,6 @@
 import React from "react";
 import './style.scss';
-import { image } from "../../../../Assets/img";
+import { image } from "../../../Assets/img";
 
 const FounderIntro = () => {
     return(

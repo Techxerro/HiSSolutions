@@ -1,0 +1,29 @@
+.v-section{
+    .container{        
+        padding:100px 0;
+        border-top: 1px solid #ff4c00;
+        border-bottom: 1px solid #ff4c00;
+        text-align: center;
+        h1{
+            font-size: 70px;
+            font-weight: 800;
+        }
+        p{
+            font-size: 20px;   
+            opacity: 0.83;         
+        }
+    }
+}
+
+
+@media (max-width:560px) {
+    .v-section{
+        .container{        
+            padding:50px 15px;
+            p{
+                font-size: 17px;   
+                opacity: 0.83;         
+            }
+        }
+    }   
+}

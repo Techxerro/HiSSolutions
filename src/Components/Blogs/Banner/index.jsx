@@ -9,12 +9,12 @@ const BlogBanner=()=>{
                 <div className="row">
                     <div className="col-12">
                         <div className="content-hero">
-                            <h4 style={{color:'#ff4c00'}}>Featured</h4>
-                            <h1 data-aos="fade" data-aos-delay="400">Breaking into Hospitality Business
-                            advice from untitled founder, Frank Mule</h1>
-                            <p data-aos="fade" data-aos-delay="800">From startups to global brands, we help hospitality businesses unlock profitability, scale<br/> with
-                            clarity, and build structures that stand the test of time.</p>
-                            <button className="btnprimary" data-aos="fade-up" data-aos-delay="800">Know More</button>
+                            <br/>
+                            <h1 data-aos="fade" data-aos-delay="400">Where Thought Meets Action</h1>
+                            <p data-aos="fade" data-aos-delay="800">At HIS Business Solutions, we don’t just consult — we think deeply about the forces shaping today's<br/> businesses and tomorrow's leaders.<br/>Our 
+                            Insights page is your place to explore ideas that spark change, challenge norms, and inspire real growth — <br/>both personally and professionally.</p>
+                            <p data-aos="fade" data-aos-delay="800">We invite you to dive into our latest reflections on leadership, operational wisdom, <br/>ethics, and modern business dynamics.</p>
+
                         </div>
                     </div>
                 </div>
