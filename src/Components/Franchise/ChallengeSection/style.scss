@@ -1,0 +1,31 @@
+.challengeSection{
+    position:relative;
+    overflow: hidden;
+    .container{
+        padding:100px 0;
+        h4{
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .svg-pointers{
+            padding:40px 0;
+            .d-flex{
+                padding-bottom: 20px;
+                align-items: center;
+                svg{
+                    padding-right: 15px;
+                }
+                h5{
+                    width:75%;
+                    font-size: 21px;
+                }
+            }
+        }
+    }
+    .cs-ellipse{
+        position: absolute;
+        bottom:-5%;
+        right:-5%;
+        width:60%;
+    }
+}

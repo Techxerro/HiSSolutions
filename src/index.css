@@ -13,6 +13,11 @@ code {
 }
 
 
+h1{
+  font-size: 70px!important;
+  font-weight: 700!important;
+}
+
 @media (max-width:1024px){ 
   h1{
     font-size: 55px!important;
@@ -31,4 +36,5 @@ code {
   h1{
       font-size: 35px!important;
   }
+
 }

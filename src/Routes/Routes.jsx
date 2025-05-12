@@ -4,6 +4,8 @@ import Home from "../View/Pages/Home";
 import Errorpage from "../View/Pages/Errorpage";
 import Blog from "../View/Pages/Blog";
 import About from "../View/Pages/About";
+import Franchise from "../View/Pages/Franchise";
+
 
 const Routes =()=>{
     const element = useRoutes([
@@ -23,10 +25,10 @@ const Routes =()=>{
                     path:'/blog',
                     element:<Blog/>
                 }, 
-                // {
-                //     path:'/services',
-                //     element:<Services/>
-                // },    
+                {
+                    path:'/Franchise',
+                    element:<Franchise/>
+                },    
             ]
         },
         {

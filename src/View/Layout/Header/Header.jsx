@@ -67,7 +67,7 @@ const Header = ()=>{
                                     <a href="/services">Services</a>
                                 </li>
                                 <li>
-                                    <a href="/services">Franchise</a>
+                                    <a href="/franchise">Franchise</a>
                                 </li>
                                 <li>
                                     <a href="/services">Shop</a>
