@@ -8,36 +8,44 @@
         padding:25px 40px;     
         margin-bottom:20px;   
         border-radius: 30px;   
-        .accordion-icon {
-            color:#ffffff;
-            font-size: 4rem;
-            font-weight: 100;
-            line-height: 1;
-            float:right;
-            position: relative;
-            z-index: 1;
-            &::before{
-                content: '';
-                width:80px;
-                height:80px;
-                background: #ff4c00;
-                position: absolute;
-                top:50%;
-                left:50%;
-                transform: translate(-50%,-50%);
-                z-index: -1;
-                border-radius: 100px;
-
-            }            
-        }    
+          
         button{
-            width:100%;
             border:none;    
-            margin-bottom:0px;
-            text-align: left;
-            font-size: 24px;
-            font-weight: 600;
-            background-color: transparent;
+            margin-bottom:10px;
+            background-color: transparent;            
+            display: flex;
+            align-items: center;
+            width:100%;
+            .title{
+                width:100%;
+                text-align: left;
+                font-size: 24px;
+                font-weight: 600;
+                padding: 0;
+            }
+            .accordion-icon {
+                color:#ffffff;
+                font-size: 4rem;
+                font-weight: 100;
+                line-height: 1;
+                float:right;
+                position: relative;
+                z-index: 1;
+                &::before{
+                    content: '';
+                    width:80px;
+                    height:80px;
+                    background: #ff4c00;
+                    position: absolute;
+                    top:50%;
+                    left:50%;
+                    transform: translate(-50%,-50%);
+                    z-index: -1;
+                    border-radius: 100px;
+
+                }            
+            }  
+            
         }
         .acc-content{
             font-size: 16px;
@@ -62,6 +70,46 @@
         .accordion-sec{
             padding-bottom: 100px;
             border-bottom:1px solid #ff4c00;
+        }
+    }
+}
+
+@media (max-width:560px) {
+    .faq-accordion-sec{
+        padding:50px 15px;
+        .accordion-wrapper{
+            padding:25px 15px;     
+            margin-bottom:10px; 
+            border-radius:20px;                
+            button{
+                .title{
+                    width:75%;
+                    font-size: 22px;
+                    text-align: left;
+                }
+                .accordion-icon {
+                    width:25%;
+                    font-size: 3rem;
+                    &::before{
+                        width:40px;
+                        height:40px;
+
+                    }            
+                } 
+            }
+            .acc-content{
+                font-size: 15px;
+                width:80%;
+            }
+        }
+        .ellipsebg{
+            bottom:0%;
+            width:100%;
+        }
+        .container{
+            .accordion-sec{
+                padding-bottom: 50px;
+            }
         }
     }
 }

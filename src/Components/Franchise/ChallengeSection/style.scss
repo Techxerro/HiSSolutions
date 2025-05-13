@@ -29,3 +29,33 @@
         width:60%;
     }
 }
+
+@media (max-width:560px){
+    .challengeSection{
+        .container{
+            padding:50px 15px;
+            h4{
+                font-size: 20px;
+            }
+            .svg-pointers{
+                padding:20px 0;
+                .d-flex{
+                    padding-bottom: 10px;
+                    svg{
+                        padding-right:20px;
+                    }
+                    h5{
+                        width:80%;
+                        font-size: 19px;
+                    }
+                }
+            }
+        }
+        .cs-ellipse{
+            position: absolute;
+            bottom:15%;
+            right:-5%;
+            width:100%;
+        }
+    }   
+}

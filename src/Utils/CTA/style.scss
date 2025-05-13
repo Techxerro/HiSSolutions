@@ -1,0 +1,63 @@
+.CTA-section{
+    position: relative;
+    .container{
+        padding:100px 0 100px;
+        text-align: center;       
+        .left-ellipse-bg{
+            position: absolute;
+            width:65%;
+            z-index:-1;
+            left:0;
+            bottom:-10%;
+        }
+
+        .right-ellipse-bg{
+            position: absolute;
+            width:65%;
+            z-index:-1;
+            right:0;
+            bottom:12%;
+        }
+
+        h5{
+            font-size: 26px;
+            font-weight: 600;
+            opacity: 0.8;
+        }
+
+        p{
+            font-size: 20px;
+            opacity: 0.9;
+        }
+
+        .btnsecondary{
+            border:2px solid #ff4c00;
+            color:#ff4c00!important;
+        }
+
+    }
+}
+
+@media (max-width:560px){
+    .CTA-section{
+        .container{
+            padding:80px 15px ;  
+             
+            .left-ellipse-bg,.right-ellipse-bg{
+                width:110%;            
+                bottom:0%;
+                z-index: -1;
+            }
+            h5{
+                font-size: 20px;
+            }
+            p{
+                font-size: 17px;
+                br{
+                    display: none;
+                }
+            }
+        }
+    }
+
+}

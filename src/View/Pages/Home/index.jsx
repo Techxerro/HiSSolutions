@@ -11,6 +11,7 @@ import FounderSection from "../../../Components/Home/FounderSection/FounderSecti
 import CnCsection from "../../../Components/Home/C&Csection/index.jsx";
 import FAQSection from "../../../Components/Home/FAQsection/index.jsx";
 import CTASection from "../../../Components/Home/CTAsection/index.jsx";
+import CaseStudySlider from "../../../Components/Home/caseStudy/index.jsx";
 
 
 const Home = ()=>{
@@ -23,6 +24,7 @@ const Home = ()=>{
             <PillarTabs/>
             <TestimonySection/>
             <CountdownSection/> 
+            <CaseStudySlider/>
             <FounderSection/>
             <CnCsection/>
             <FAQSection/>

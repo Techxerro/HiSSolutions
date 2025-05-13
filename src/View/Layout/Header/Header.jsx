@@ -76,7 +76,7 @@ const Header = ()=>{
                                     <a href="/blog">Insight & Resources</a>
                                 </li>
                                 <li>
-                                    <a href="/services">Case Studies</a>
+                                    <a href="/case-studies">Case Studies</a>
                                 </li>
                                 <li>
                                     <a href="#contact">Contact</a>

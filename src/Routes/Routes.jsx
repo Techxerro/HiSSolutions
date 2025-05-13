@@ -5,6 +5,7 @@ import Errorpage from "../View/Pages/Errorpage";
 import Blog from "../View/Pages/Blog";
 import About from "../View/Pages/About";
 import Franchise from "../View/Pages/Franchise";
+import CaseStudies from "../View/Pages/CaseStudies";
 
 
 const Routes =()=>{
@@ -28,6 +29,10 @@ const Routes =()=>{
                 {
                     path:'/Franchise',
                     element:<Franchise/>
+                }, 
+                {
+                    path:'/case-studies',
+                    element:<CaseStudies/>
                 },    
             ]
         },

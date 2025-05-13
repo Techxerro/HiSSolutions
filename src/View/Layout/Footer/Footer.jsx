@@ -20,15 +20,15 @@ const Footer = ()=>{
                         <div className="d-flex gap-5">
                             <ul>
                                 <li><a href="/">Home</a></li>
-                                <li><a href="#">About</a></li>
+                                <li><a href="/about">About</a></li>
                                 <li><a href="#">Book Online</a></li>
                             </ul>
                             <ul>
-                                <li><a href="#">Franchise</a></li>
+                                <li><a href="/franchise">Franchise</a></li>
                                 <li><a href="#">Services</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="/contact">Contact</a></li>
                             </ul><ul>
-                                <li><a href="">Term & Condition</a></li>
+                                <li><a href="#">Term & Condition</a></li>
                                 <li><a href="#">Privacy Policy</a></li>
                             </ul>
                         </div>

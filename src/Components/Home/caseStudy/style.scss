@@ -1,22 +1,13 @@
-.philosophy-section{
-    padding-bottom:100px;
+.case-study-section{
+    padding:50px 0;
     .container{
         background: #FF4C00;
-        padding:100px 40px 40px; 
+        padding:30px 40px; 
         color:#fff;
         box-shadow:0 35px 60px -20px #FF4C00;
-        border-radius: 30px;
-        .head-philosophy{
-            text-align: center;
-            h5{
-                font-size: 28px;
-            }
-            p{
-                font-size:19px;
-            }
-        }
+        border-radius: 30px;        
         .slider-philosophy{
-            margin-top:50px;
+            margin-top:20px;
             padding:50px 20px;
             background: #FFFFFF;
             color:#000000;
@@ -25,36 +16,27 @@
                 display: flex;
                 justify-content: center;
                 .slideinner{
-                    width:65%;
-                    .slidetitles{     
-                        text-align: center;
-                        padding-bottom: 25px;
+                    width:100%;
+                    padding:20px 0;
+                    
+                    .slidecontent{ 
                         h3{
-                            font-size: 40px;
-                        }
-                        h6{
-                            font-size: 26px;
+                            font-size: 35px;
                         }
                         p{
-                            font-size: 18px;
+                            font-size: 20px;
                         }
-                    }
-                    .slidecontent{ 
+                        .btnprimary{                            
+                            box-shadow:0 5px 15px -2px #FF4C00;
+                        }
                         .d-flex{
-                            padding-bottom: 20px;
-                            align-items: center;
-                            svg{
-                                padding-right: 10px;
-
+                            img{
+                                width:auto;
+                                height:120px;
                             }
                             h5{
                                 width:80%;
                                 font-size: 19px;
-                            }
-                        }
-                        .slidefoot{
-                            h5{
-                                font-size: 22px;
                             }
                         }
                     }

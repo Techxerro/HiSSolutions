@@ -120,7 +120,7 @@ const Philosophy = ()=>{
                                                     <h5>Brand positioning audit</h5>
                                                 </div>
                                             </div>
-                                            <div className="col-12 d-flex justify-content-center">
+                                            <div className="col-12 d-flex justify-content-lg-center justify-content-start">
                                                 <div className="d-flex gap-2 ">
                                                     <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <circle cx="30" cy="30" r="30" fill="#FF4C00"/>
@@ -217,7 +217,7 @@ const Philosophy = ()=>{
                                                     <h5>Brand positioning audit</h5>
                                                 </div>
                                             </div>
-                                            <div className="col-12 d-flex justify-content-center">
+                                            <div className="col-12 d-flex justify-content-lg-center justify-content-start">
                                                 <div className="d-flex gap-2 ">
                                                     <svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <circle cx="30" cy="30" r="30" fill="#FF4C00"/>
@@ -233,7 +233,7 @@ const Philosophy = ()=>{
                                                     <h5>Franchise scalability potential</h5>
                                                 </div>                                                
                                             </div>
-                                            <div className="col-12 d-flex text-center justify-content-center">                                                
+                                            <div className="col-12 d-flex text-center justify-content-center slidefoot">                                                
                                                 <h5><b>Deliverable: A detailed Franchise Readiness Report + Go/No-Go Recommendation.</b></h5>                                                
                                             </div>
                                         </div> 

@@ -1,0 +1,106 @@
+.cs-intro-section{
+    position: relative;
+    .IS-1{
+        padding:100px 0;
+        .title{
+            display: flex;
+            gap:30px;
+            justify-content: center;        
+            .divider{
+                width:6px;
+                background: #ff4c00;
+                border-radius: 10px;
+            }
+            h1{
+                padding:30px 0;
+            }
+        }
+        .intro-content{
+            padding-top:50px;
+            text-align: center;
+            h5{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+        } 
+    }
+
+    img{
+        position: absolute;
+        width:65%;
+        bottom:10%;
+    }
+
+    .IS-2{
+        padding:0 0 100px;
+        h1{
+            font-weight: 800;
+        }
+        h5{
+            font-size: 32px;
+            font-weight: 700 ;
+            span{
+                color:#ff4c00;
+            }
+        }
+        p{
+            font-size: 20px;
+            opacity: 0.9;
+        }
+    }
+}
+
+@media (max-width:1400px) {
+    .cs-intro-section{
+        .IS-1{
+            .title{
+                display: block;
+                text-align: center;
+                gap:10px; 
+                .divider{
+                    margin:0 auto;
+                    width:120px;
+                    height:4px;
+                }
+                h1{
+                    padding:10px 0;
+                }    
+            }
+        }
+    }
+}
+
+@media (max-width:560px) {
+    .cs-intro-section{
+        .IS-1{
+            padding:50px 15px;            
+            .intro-content{
+                padding-top:12px;
+                h5{
+                    font-size: 25px;
+                }
+                p{
+                    font-size: 17px;
+                }
+            } 
+        }
+        img{
+            width:130%;
+            position: absolute;
+            bottom:30%;
+        }
+
+        .IS-2{
+            padding:0 15px 50px;
+            
+            h5{
+                font-size: 22px;
+            }
+            p{
+                font-size: 17px;
+            }
+        }
+    }
+}

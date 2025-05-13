@@ -1,0 +1,116 @@
+.company-details-sec{
+    position: relative;
+    .sections-wrapper {
+        border-top:1px solid #ff4c00;
+        .section{
+            padding: 100px 0;
+            border-bottom:1px solid #ff4c00;
+            
+            .section-title {
+                font-size: 40px;
+                font-weight: 700;
+                color: #000;
+            }
+            .item-card {                
+                svg{
+                    width:auto;
+                    height:80px;
+                    padding-right: 5px;
+                }
+                .item{
+                    width:75%;
+                    .item-head {
+                        font-size: 26px;
+                        font-weight: bold;
+                        margin-bottom: 4px;
+                    }
+                    .item-text {
+                        font-size: 19px;
+                        font-weight: 500;
+                    }            
+                }
+            }
+
+            h5{
+                font-size: 30px;                   
+
+            }
+            p{
+                font-size: 20px;
+                font-weight: 500;
+            }
+            
+        }
+    }
+    .left-ellipse-bg{
+        position: absolute;
+        width:65%;
+        z-index:-1;
+        left:0;
+        bottom:10%;
+    }
+
+    .right-ellipse-bg{
+        position: absolute;
+        width:65%;
+        z-index:-1;
+        right:0;
+        bottom:40%;
+    }
+}
+
+.detail-sec-bottom{
+    .container{
+        padding:100px 0;
+        border-bottom:1px solid #ff4c00;
+        p{
+            font-size: 20px;
+            opacity: 0.9;
+        }
+    }
+}
+
+@media (max-width:780px) {
+
+}
+@media (max-width:560px) {
+    .company-details-sec{
+        .sections-wrapper {
+            .section{
+                padding: 50px 15px;                
+                .item-card {                
+                    svg{
+                        height:70px;
+                    }
+                    .item{
+                        .item-head {
+                            font-size: 22px;
+                        }
+                        .item-text {
+                            font-size: 17px;
+                        }            
+                    }
+                }
+                h5{
+                    font-size: 22px;              
+                }
+                p{
+                    font-size: 17px;
+                } 
+            }
+        }
+        .left-ellipse-bg,
+        .right-ellipse-bg{
+            width:100%;
+        }
+    }
+
+    .detail-sec-bottom{
+        .container{
+            padding:50px 15px;
+            p{
+                font-size: 17px;
+            }
+        }
+    }  
+}

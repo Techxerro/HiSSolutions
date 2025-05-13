@@ -8,7 +8,7 @@ const AccordionItem = ({ title, content, isOpen, onClick }) => (
     <button
       onClick={onClick}
     >
-      {title}      
+      <div className="title">{title}</div> 
       <span className="accordion-icon">{isOpen ? '−' : '+'}</span>
 
     </button>
