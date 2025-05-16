@@ -14,8 +14,8 @@ const HeroSection=()=>{
                             <p data-aos="fade" data-aos-delay="800">From startups to global brands, we help hospitality businesses unlock profitability, scale with<br/>
                             clarity, and build structures that stand the test of time.</p>
                             <div className="d-flex gap-4 justify-content-center pt-3">
-                                <button className="btnprimary" data-aos="fade-up" data-aos-delay="800">Let’s Talk Strategy</button>
-                                <button className="btnsecondary"  data-aos="fade-up" data-aos-delay="800">See Our Work</button>
+                                <button className="btnprimary" data-aos="fade-up" data-aos-delay="800"><a href="#">Let’s Talk Strategy</a></button>
+                                <button className="btnsecondary"  data-aos="fade-up" data-aos-delay="800"><a href="http://localhost:3000/services">See Our Work</a></button>
                             </div>
                         </div>
                     </div>

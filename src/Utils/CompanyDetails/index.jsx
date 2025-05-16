@@ -1,108 +1,32 @@
 import React from 'react';
 import './style.scss'; 
-import { image } from '../../../Assets/img';
+import { image } from '../../Assets/img';
 
-
-const details = [
-    {
-        id:1,
-        title:'The Challenge',
-        items:[
-            {
-                itemid:1,
-                item:"Strained relationships with franchisees across diverse global markets",
-            },
-            {
-                itemid:2,
-                item:"Operational inconsistency and fragmented brand execution",
-            },
-            {
-                itemid:3,
-                item:"Slowed global development and expansion momentum",
-            },
-            {
-                itemid:4,
-                item:"Severe impact on dine-in business models due to pandemic restrictions"
-            },
-        ], 
-    },    
-    {
-        id:2,
-        title:'The Strategic Response',
-        items:[
-            {
-                itemid:1,
-                itemhead:'Franchise Partnership Rebuilding',    
-                item:"Re-established transparency and support frameworks with franchise partners to drive mutual profitability.",
-            },
-            {
-                itemid:2,
-                itemhead:'Delivery-First Business Model',    
-                item:"Pioneered virtual kitchen models and digital delivery strategies to replace lost dine-in revenue.",
-            },
-            {
-                itemid:3,
-                itemhead:'Agile Development Strategy',    
-                item:"Adapted market expansion strategies to fit rapidly changing global realities and protect development pipelines.",
-            }
-        ], 
-    },   
-    {
-        id:3,
-        title:'The Execution Highlights',
-        items:[
-            {
-                itemid:1,
-                item:"Designed and launched a virtual kitchen model within 90 days",
-            },
-            {
-                itemid:2,
-                item:"Strained relationships with franchisees across diverse global markets",
-            },
-            {
-                itemid:3,
-                item:"Secured third-party delivery partnerships to protect revenue streams",
-            },
-            {
-                itemid:4,
-                item:"Maintained franchisee development agreements while competitors paused"
-            },
-        ],  
-    },   
-    {
-        id:4,
-        title:'The Outcome',
-        items:[
-            {
-                itemid:1,
-                item:"Strengthened international franchise partnerships during peak crisis",
-            },
-            {
-                itemid:2,
-                item:"Stabilized and revitalized global expansion plans",
-            },
-            {
-                itemid:3,
-                item:"Stabilized and revitalized global expansion plans",
-            }
-        ],
-        quote:"Leadership is tested not when everything goes smoothly — but when every foundation is shaken. Real value is built during times of uncertainty.",
-        quoteauthor:'— Stephen O’Connor, Founder, HIS Business Solutions',                
-                               
-        
-          
-    },
-
-];
-
-function Companydetails() {
+function Companydetails(props) {
     return (
         <>
+            <section className="cs-wrapper">
+                <div className="container IS-2">
+                    <div className="row">
+                        <div className="col-12">
+                            <img src={props.Companyimg} alt="" className='complogo'/>
+                            <h1>{props.Companyname}</h1>
+                            <br />
+                            <h5>Stephen O’Connor's Role:</h5>
+                            <h5>{props.Designation}</h5>
+                            <br />
+                            <h5>Overview</h5>
+                            <br />  
+                            <p>{props.overview}</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section className="company-details-sec">
                 <div className="sections-wrapper container">
                     <img src={image.abtbgellipse} alt="" className='left-ellipse-bg'/>
                     <img src={image.cncellipse} alt="" className='right-ellipse-bg'/>
-                    {details.map(section => (
+                    {props.details.map(section => (
                         <div className="section" key={section.id}>
                             <h1 className="section-title mb-5">{section.title}</h1>
                             <div className="row g-4">
@@ -126,8 +50,7 @@ function Companydetails() {
                                                     <p className="item-text mb-0">{item.item}</p>                                                
                                                 </div>
                                             </div>                                                                         
-                                        </div>  
-
+                                        </div> 
                                 ))}
                             </div> 
                             {
@@ -135,9 +58,7 @@ function Companydetails() {
                             
                                 <div className="row mt-2 pt-5 justify-content-center text-center">
                                     <div className="col-lg-10 col-12">
-                                        <h5>"{section.quote}"</h5>  
-                                        <p>{section.quoteauthor}</p> 
-
+                                        <h5>{section.quote}</h5>  
                                     </div>
                                 </div> 
                             } 

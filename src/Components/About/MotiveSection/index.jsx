@@ -11,15 +11,15 @@ const Motivesection= () =>{
                     <div className="row">
                         <div className="col-md-7 col-12">
                             <div className="title">
-                                <h1>What Drives Us</h1>
-                                <h4>Growth is never accidental.</h4>
-                                <p>At HIS Business Solutions, we believe in designing success — through smarter strategies, stronger operations, and leadership that adapts, innovates, and endures.</p>
+                                <h1 data-aos="fade-up" data-aos-delay="300">What Drives Us</h1>
+                                <h4 data-aos="fade-up" data-aos-delay="400">Growth is never accidental.</h4>
+                                <p data-aos="fade-down" data-aos-delay="400">At HIS Business Solutions, we believe in designing success — through smarter strategies, stronger operations, and leadership that adapts, innovates, and endures.</p>
                             </div>
                         </div>
                     </div>
 
                     <div className="row iconbox-wrapper">
-                        <div className="col-xl-4 col-sm-6 col-12">
+                        <div className="col-xl-4 col-sm-6 col-12" data-aos="fade-right" data-aos-delay="400">
                             <div className="icon-box d-flex gap-3 align-items-center">
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="50" cy="50" r="50" fill="#FF4C00"/>
@@ -35,7 +35,7 @@ const Motivesection= () =>{
                                 <span>Practical solutions, not presentations</span>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-sm-6 col-12">
+                        <div className="col-xl-4 col-sm-6 col-12" data-aos="fade-right" data-aos-delay="400">
                             <div className="icon-box d-flex gap-3 align-items-center">
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="50" cy="50" r="50" fill="#FF4C00"/>
@@ -51,7 +51,7 @@ const Motivesection= () =>{
                                 <span>Lasting systems, not short-term fixes</span>
                             </div>
                         </div>
-                        <div className="col-xl-4 col-sm-6 col-12">
+                        <div className="col-xl-4 col-sm-6 col-12" data-aos="fade-right" data-aos-delay="400">
                             <div className="icon-box d-flex gap-3 align-items-center">
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="50" cy="50" r="50" fill="#FF4C00"/>
@@ -68,7 +68,7 @@ const Motivesection= () =>{
                             </div>
                         </div>          
                         <div className="col-xl-8 col-12 pt-4">                            
-                            <h4>We don’t just help you move faster. We help you move smarter, further, and with more confidence.</h4>                            
+                            <h4 data-aos="fade-down" data-aos-delay="600">We don’t just help you move faster. We help you move smarter, further, and with more confidence.</h4>                            
                         </div>
                     </div>
                     <img src={image.cncellipse} alt="" className="cnc-ellipse"/>

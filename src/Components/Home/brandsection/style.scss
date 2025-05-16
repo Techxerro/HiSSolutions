@@ -61,7 +61,8 @@
         padding:45px 0;
         gap:80px;
         img{
-            width:140px;
+            height:100px;
+            object-fit: contain;
             filter: grayscale(0);
             transition: 0.7s ease-out;
             &:hover{

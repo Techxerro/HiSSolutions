@@ -8,6 +8,10 @@ import logo1 from './logo1.png';
 import logo2 from './logo2.png';
 import logo3 from './logo3.png';
 import logo4 from './logo4.png';
+import whitelogo1 from './whitelogo1.png';
+import whitelogo2 from './whitelogo2.png';
+import whitelogo3 from './whitelogo3.png';
+import whitelogo4 from './whitelogo4.png';
 import map from './map.png';
 import profileimg1 from './client1.png';
 import bgellipse from './bgellips.png';
@@ -29,7 +33,9 @@ import abticon1 from './abticon1.png';
 import abticon2 from './abticon2.png';
 import abticon3 from './abticon3.png';
 import abticon4 from './abticon4.png';
-import book from './red-hardcover-book-front-cover.png'
+import book from './red-hardcover-book-front-cover.png';
+import team1 from './team1.png';
+import team2 from './team2.png';
 
 export const image={
     logo,
@@ -42,6 +48,10 @@ export const image={
     logo2,
     logo3,
     logo4,
+    whitelogo1,
+    whitelogo2,
+    whitelogo3,
+    whitelogo4,
     profileimg1,
     map,
     bgellipse,
@@ -64,4 +74,6 @@ export const image={
     abticon3,
     abticon4,
     book,
+    team1,
+    team2,
 }

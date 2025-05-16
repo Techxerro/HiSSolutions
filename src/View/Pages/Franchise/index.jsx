@@ -1,7 +1,7 @@
 import React from "react";
 import FranchisePageSections from "../../../Components/Franchise";
 
-const Franchise = () =>{
+const Services = () =>{
     return(
         <>
         <FranchisePageSections/>
@@ -9,4 +9,4 @@ const Franchise = () =>{
     )
 }
 
-export default Franchise;
+export default Services;

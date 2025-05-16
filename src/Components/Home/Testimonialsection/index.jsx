@@ -47,6 +47,7 @@ const TestimonySection = () =>{
             titlespan:'“Stephen doesn’t act like a consultant—he thinks like a partner. We opened 100+ stores and saw a 30% EBITDA jump. HIS changed the trajectory of our business.”',
         }
     ]
+    
 
     return(
         <>
@@ -54,29 +55,30 @@ const TestimonySection = () =>{
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h1>What Our Clients Say</h1>
+                            <h1 data-aos="fade-right"  data-aos-anchor-placement="top-center">What Our Clients Say</h1>
                         </div>
-                        <div className="col-12">
-                            
-                        <Swiper
-                            slidesPerView={1}
-                            centeredSlides={true}
-                            pagination={{
-                                el: '.swiper-pagination',
-                                clickable: true,
-                                renderBullet: function (index,className) {
-                                    return ('<span class="' + className + '">'+'</span>');
-                                }
-                            }} 
-                            // onSlideChange={()=>animation()}               
-                            className="hero-slider-wrapper"        
-                            autoplay={{delay:4000,disableOnInteraction:false,pauseOnMouseEnter: false,}}                  
-                            modules={[Navigation,Autoplay,Pagination]}
-                            onBeforeInit={(swiper) => {
-                                swiperRef.current = swiper;
-                            }}
-                        >
-                            
+                        <div className="col-12">                            
+                            <Swiper
+                                slidesPerView={1}
+                                centeredSlides={true}
+                                pagination={{
+                                    el: '.swiper-pagination',
+                                    clickable: true,
+                                    renderBullet: function (index,className) {
+                                        return ('<span class="' + className + '">'+'</span>');
+                                    }
+                                }} 
+                                navigation= {{
+                                    nextEl: '.swiper-button-next',
+                                    prevEl: '.swiper-button-prev',
+                                }}                               
+                                className="hero-slider-wrapper"        
+                                autoplay={{delay:4000,disableOnInteraction:false,pauseOnMouseEnter: false,}}                  
+                                modules={[Navigation,Autoplay,Pagination]}
+                                onBeforeInit={(swiper) => {
+                                    swiperRef.current = swiper;
+                                }}
+                            >                            
                                 {
                                     sliders.map((obj)=>{
                                         return(
@@ -95,14 +97,18 @@ const TestimonySection = () =>{
                                                             </div>
                                                         </div>
                                                     </div>
-                                                </div>
+                                                </div>                                                
                                             </SwiperSlide>
                                         )
                                     })
                                 }
+                                <div className="swiperbtn">
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div>
+                            </Swiper>
 
-                        </Swiper>
-
+                             
                         </div>
                     </div>
                 </div>

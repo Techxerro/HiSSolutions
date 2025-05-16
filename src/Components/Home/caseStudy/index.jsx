@@ -21,7 +21,7 @@ const CaseStudySlider = ()=>{
                 <div className="container">
                     <div className="row head-philosophy justify-content-center">
                         <div className="col-lg-10 col-12 text-center">
-                            <h1>Case Study</h1>                            
+                            <h1 data-aos="fade-up" data-aos-delay="300">Case Study</h1>                            
                         </div>
                     </div>
                     <div className="row slider-philosophy">

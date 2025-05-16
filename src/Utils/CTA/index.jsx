@@ -8,10 +8,12 @@ const CallToAction = (props)=>{
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-12">
-                            <h1 style={{fontSize:'90px'}}>{props.head}</h1>
-                            <br/> 
-                            {props.midcontent}
-                            <div className="d-flex gap-4 justify-content-center">
+                            <h1 style={{fontSize:'90px'}} data-aos="fade-down" data-aos-anchor-placement="top-center">{props.head}</h1>
+                            <br/>
+                            <div data-aos="fade-down" data-aos-anchor-placement="bottom-bottom">
+                            {props.midcontent}                            
+                            </div>
+                            <div className="d-flex gap-4 justify-content-center" data-aos="fade-up">
                                 <button className="btnprimary">{props.primarybtn}</button>
                                 {props.secondarybtn ? <button className="btnsecondary">{props.secondarybtn}</button> : ''}
                             </div>    

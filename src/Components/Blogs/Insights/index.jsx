@@ -8,11 +8,11 @@ const Insight =() =>{
                 <div className="container">
                     <div className="row">
                         <div className="col-12 title">
-                            <h1>Why Our Insights Matter</h1>
+                            <h1 data-aos="fade-up"  data-aos-anchor-placement="top-center">Why Our Insights Matter</h1>
                         </div>
                     </div>
                     <div className="row is-1">
-                        <div className="col-lg-4 col-md-6 col-12">
+                        <div className="col-lg-4 col-md-6 col-12" data-aos="zoom-in-right" data-aos-anchor-placement="top-center">
                             <div className="d-flex gap-2">
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="50" cy="50" r="50" fill="#FF4C00"/>
@@ -29,7 +29,7 @@ const Insight =() =>{
                             </div>
                         </div>
 
-                        <div className="col-lg-4 col-md-6 col-12">  
+                        <div className="col-lg-4 col-md-6 col-12" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor-placement="top-center">  
                             <div className="d-flex gap-2">
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="50" cy="50" r="50" fill="#FF4C00"/>
@@ -46,7 +46,7 @@ const Insight =() =>{
                             </div>                     
                         </div>   
 
-                        <div className="col-lg-4 col-md-6 col-12">                            
+                        <div className="col-lg-4 col-md-6 col-12" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor-placement="top-center">                            
                             <div className="d-flex gap-2">
                                 <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <circle cx="50" cy="50" r="50" fill="#FF4C00"/>
@@ -65,7 +65,7 @@ const Insight =() =>{
                     </div>
 
                     <div className="row ft-is">
-                        <div className="col-12">
+                        <div className="col-12" data-aos="fade-up"  data-aos-anchor-placement="top-center">
                             <p>Because information alone doesn’t transform businesses.<br/><b>Insight, applied with courage, does.</b></p>
                         </div>
                     </div>

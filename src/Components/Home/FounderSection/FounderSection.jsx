@@ -9,12 +9,12 @@ const FounderSection=()=>{
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
-                            <h1>Our Founder –<br/>
+                            <h1 data-aos="fade-right" data-aos-delay="300">Our Founder –<br/>
                             A Legacy of Results
                             </h1>
                         </div>
 
-                        <div className="col-lg-5 col-md-6 col-sm-12 col-12">
+                        <div className="col-lg-5 col-md-6 col-sm-12 col-12 fimg-cover">
                             <img src={image.founderimg} alt="" className="founderimg"/>
                         </div>  
                         <div className="col-lg-7 col-md-6 col-sm-12 col-12 founder-content-wrapper">

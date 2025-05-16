@@ -67,10 +67,7 @@ const Header = ()=>{
                                     <a href="/services">Services</a>
                                 </li>
                                 <li>
-                                    <a href="/franchise">Franchise</a>
-                                </li>
-                                <li>
-                                    <a href="/services">Shop</a>
+                                    <a href="/shop">Shop</a>
                                 </li>
                                 <li>
                                     <a href="/blog">Insight & Resources</a>
@@ -79,7 +76,7 @@ const Header = ()=>{
                                     <a href="/case-studies">Case Studies</a>
                                 </li>
                                 <li>
-                                    <a href="#contact">Contact</a>
+                                    <a href="/contact">Contact</a>
                                 </li>
                             </ul>
                         </div>                    

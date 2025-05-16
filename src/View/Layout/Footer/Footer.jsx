@@ -1,8 +1,6 @@
 import React from "react";
 import './style.scss';
 import { image } from "../../../Assets/img";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import  '@fortawesome/free-brands-svg-icons';
 
 
 const Footer = ()=>{
@@ -13,7 +11,6 @@ const Footer = ()=>{
                     <div className="col-lg-2 col-12">
                         <div className="logo d-flex gap-3 align-items-end">
                             <img src={image.footerlogo} alt="" id="whitelogo"/>
-                            {/* <img src={image.whitelogotext} alt="" id="whitelogotext"/> */}
                         </div>
                     </div> 
                     <div className="col-lg-7 col-12">
@@ -24,8 +21,7 @@ const Footer = ()=>{
                                 <li><a href="#">Book Online</a></li>
                             </ul>
                             <ul>
-                                <li><a href="/franchise">Franchise</a></li>
-                                <li><a href="#">Services</a></li>
+                                <li><a href="/services">Services</a></li>
                                 <li><a href="/contact">Contact</a></li>
                             </ul><ul>
                                 <li><a href="#">Term & Condition</a></li>
@@ -53,12 +49,21 @@ const Footer = ()=>{
                                     </svg>
                                     </a>
 
-                                    {/* Linkedin */}
+                                    {/* Insta */}
                                     <a href="https://www.facebook.com/profile.php?id=100048109194377" target="_blank">                           
                                     <svg width="24" height="24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M4.98 3.5A2.5 2.5 0 002.5 6a2.5 2.5 0 002.48 2.5H5a2.5 2.5 0 100-5h-.02zM3 9h4v12H3V9zm7 0h3.5v1.71h.05c.49-.93 1.69-1.91 3.45-1.91 3.69 0 4.5 2.43 4.5 5.59V21h-4v-5.5c0-1.31-.03-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21H10V9z"/>
                                     </svg>
                                     </a>
+
+                                    {/* Twiiter */}
+                                    <a href="https://www.facebook.com/profile.php?id=100048109194377" target="_blank">                           
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                    <path  d="M14.225 10.477L20.083 3h-1.539l-5.007 6.395L9.055 3H3.25l6.172 9.058L3.25 21h1.539l5.28-6.74L14.944 21h5.805l-6.524-10.523Zm-1.872 2.387l-.61-.91-5.017-7.48h2.435l4.013 5.985.61.91 5.287 7.865h-2.435l-4.283-6.37Z"/>
+                                    </svg>
+
+                                    </a>
+                                    
                                 </div>
                                 <span>© 2025 by ​BUSINESS​ CONSULTING.</span>
                             </div>

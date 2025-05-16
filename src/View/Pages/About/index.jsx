@@ -5,6 +5,7 @@ import FounderIntro from "../../../Components/About/Founderintro";
 import VoiceSection from "../../../Components/About/VoiceSection";
 import EdgeSection from "../../../Components/About/EdgeSection";
 import Introduction from "../../../Components/About/Introduction";
+import Team from "../../../Components/About/Team";
 
 const About = () =>{
     return(
@@ -14,6 +15,7 @@ const About = () =>{
             <Motivesection/>
             <FounderIntro/>
             <VoiceSection/>
+            <Team/>
             <EdgeSection/>
         </>
     )

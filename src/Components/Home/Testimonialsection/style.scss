@@ -4,7 +4,6 @@
         font-size: 70px;
         font-weight:700;
     }
-
     .testimony{
         background:#ff4c0018;
         padding:20px 10px;
@@ -30,8 +29,7 @@
                 font-weight: 700;
             }
         }
-    }
-
+    }    
 }
 
 @media (max-width:"1300px") {
@@ -104,10 +102,15 @@
     .testimony-section{
         padding:0px 10px;
         .testimony{
+            .testimony-content{
+                padding:0;
+            }
             img{
                 padding-bottom:20px;
             }
         }
-    
+    }
+    .swiperbtn{
+        display:none;
     }
 }

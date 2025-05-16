@@ -8,8 +8,8 @@ const VoiceSection = () =>{
                 <div className="container">
                     <div className="row justify-content-center">
                         <div className="col-md-9 col-12">
-                            <h1>Beyond Consulting:</h1>
-                            <h1>The Voice of Lane Stephens</h1>
+                            <h1 data-aos="fade-down" data-aos-delay="200">Beyond Consulting:</h1>
+                            <h1 data-aos="fade-up" data-aos-delay="400">The Voice of Lane Stephens</h1>
                             <br/>
                             <p>
                             Many know Stephen O’Connor professionally. Fewer knew he also wrote under the pen name Lane Stephens — a voice for deeper 
