@@ -50,7 +50,7 @@ const Header = ()=>{
                 <div className="row">
                     <div className="col-lg-3 col-md-3 col-sm-3 col-6 ">
                         <div className="d-flex align-items-center gap-2 logo">
-                            <a href="/home"><img src={image.logo} alt="" data-aos="zoom-in" data-aos-delay="600" id="logoimg" /></a>
+                            <a href="/"><img src={image.logo} alt="" data-aos="zoom-in" data-aos-delay="600" id="logoimg" /></a>
                             {/* <a href="/"><img src={image.logotext} alt=""  id="logotext"/></a> */}
                         </div>
                     </div>

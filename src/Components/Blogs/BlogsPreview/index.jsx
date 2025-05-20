@@ -3,6 +3,7 @@ import './style.scss';
 import blogsdata from "./blogsdata";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { image } from "../../../Assets/img";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -78,7 +79,8 @@ const BlogsPreview=()=>{
                                 />
                             </svg>
                         </div>
-                    </div>             
+                    </div>  
+                    <img src={image.cncellipse} alt="" className="bgellipse"/>           
                 </div>
             </div>  
         </section>

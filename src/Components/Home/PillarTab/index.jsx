@@ -96,7 +96,7 @@ const PillarTabs =()=>{
     useEffect(() => {
         ScrollTrigger.create({
             trigger: sidebarRef.current,
-            start: 'start 50px',
+            start: 'start top',
             end: 'bottom 620px', // how long it should be pinned
             // markers:true,
             pin: true,

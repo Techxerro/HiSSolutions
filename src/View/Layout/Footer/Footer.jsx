@@ -10,7 +10,9 @@ const Footer = ()=>{
                 <div className="row">
                     <div className="col-lg-2 col-12">
                         <div className="logo d-flex gap-3 align-items-end">
+                           <a href="/">
                             <img src={image.footerlogo} alt="" id="whitelogo"/>
+                           </a>
                         </div>
                     </div> 
                     <div className="col-lg-7 col-12">
@@ -18,7 +20,7 @@ const Footer = ()=>{
                             <ul>
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/about">About</a></li>
-                                <li><a href="#">Book Online</a></li>
+                                <li><a href="/shop">Book Online</a></li>
                             </ul>
                             <ul>
                                 <li><a href="/services">Services</a></li>

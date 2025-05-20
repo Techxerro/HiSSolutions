@@ -2,20 +2,10 @@ import {React, useEffect, useState} from "react";
 import { image } from "../../../Assets/img";
 import './style.scss';
 import CountUp from 'react-countup';
+import VisibilitySensor from 'react-visibility-sensor';
 
 
 const CountdownSection = () =>{
-    // const [count, setCount] = useState(80);
-
-    // useEffect(() => {
-    //   if (count === 0) return;
-  
-    //   const timer = setInterval(() => {
-    //     setCount(prev => prev - 1);
-    //   }, 1000);
-  
-    //   return () => clearInterval(timer); // Clean up on unmount or re-render
-    // }, [count]);
 
     return(
         <>
@@ -30,11 +20,12 @@ const CountdownSection = () =>{
                             </h1>
                             <div className="d-flex">
                                 <div className="ct1" data-aos="fade-left" data-aos-delay="400">
-                                    <h2>80+</h2>
+                                   
+                                    <h2><CountUp start={0} end={80} enableScrollSpy={true} scrollSpyOnce={true} /> +</h2>
                                     <span>Countries</span>
                                 </div>
                                 <div className="ct1" data-aos="fade-left" data-aos-delay="600">
-                                    <h2>1000+</h2>
+                                    <h2><CountUp start={0} end={1000} enableScrollSpy={true} scrollSpyOnce={false}/>+</h2>
                                     <span>Units</span>
                                 </div>
                             </div>

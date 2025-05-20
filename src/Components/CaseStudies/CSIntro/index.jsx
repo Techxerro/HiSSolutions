@@ -29,7 +29,7 @@ const CSIntro = () =>{
                                         <img src={image.whitelogo2} alt="" className="isecimg"/>
                                     </div>
                                     <h5>M.H. Alshaya – Building a Multi-Brand Powerhouse</h5>
-                                    <p>As a founding executive of M.H. Alshaya’s Food & Beverage division, Stephen O’Connor...</p>
+                                    <p>As a founding executive of M.H. Alshaya’s Food & Beverage division, Stephen...</p>
                                     <button className="btnprimary"><a href="/case-studies/Alshaya-Group"
                                     //  target="_blank"
                                      >Read More</a></button>
@@ -44,7 +44,7 @@ const CSIntro = () =>{
                                         <img src={image.whitelogo4} alt="" className="isecimg"/>
                                     </div>
                                     <h5>Sbarro – Global Expansion During Turnaround</h5>
-                                    <p>Joining Sbarro at a pivotal moment, Stephen was a key architect of the brand’s...</p>
+                                    <p>Joining Sbarro at a pivotal moment, Stephen was a key architect of the...</p>
                                     <button className="btnprimary"><a href="/case-studies/Sbarro"
                                     //  target="_blank"
                                      >Read More</a></button>
@@ -59,7 +59,7 @@ const CSIntro = () =>{
                                         <img src={image.whitelogo3} alt="" className="isecimg"/>
                                     </div>
                                     <h5>TGI Fridays – From the Line to Global Leadership</h5>
-                                    <p>Stephen’s hospitality journey began at TGI Fridays, where he progressed...</p>
+                                    <p>Stephen’s hospitality journey began at TGI Fridays, where he...</p>
                                     <button className="btnprimary"><a href="/case-studies/TGI-Friday"
                                     //  target="_blank"
                                      >Read More</a></button>
@@ -76,10 +76,14 @@ const CSIntro = () =>{
                                         <img src={image.whitelogo1} alt="" className="isecimg"/>
                                     </div>
                                     <h5>Johnny Rockets – Global Turnaround Amid Crisis</h5>
-                                    <p>At Johnny Rockets — a global restaurant brand with over 200 locations acros...</p>
-                                    <button className="btnprimary"><a href="/case-studies/Jhonny-Rocket"
-                                    //  target="_blank"
-                                     >Read More</a></button>
+                                    <p>At Johnny Rockets — a global restaurant brand with over 200 locations...</p>
+                                    <button className="btnprimary">
+                                        <a href="/case-studies/Jhonny-Rocket"
+                                        //  target="_blank"
+                                        >
+                                            Read More
+                                        </a>
+                                    </button>
                                 </div>
                             </div>
                         </div>
