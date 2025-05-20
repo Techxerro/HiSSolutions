@@ -106,7 +106,9 @@ const TGIFriday =()=>{
             <CallToAction
                 head={<>Let's Build Your Next <br/>Success Story</>}
                 primarybtn="Schedule a Consultation"
+                primarybtnlink=""
                 secondarybtn="Explore Our Services"
+                secondarybtnlink="/services"
             />
         </>
     )

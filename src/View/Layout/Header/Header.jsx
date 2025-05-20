@@ -50,7 +50,7 @@ const Header = ()=>{
                 <div className="row">
                     <div className="col-lg-3 col-md-3 col-sm-3 col-6 ">
                         <div className="d-flex align-items-center gap-2 logo">
-                            <a href="/"><img src={image.logo} alt="" data-aos="zoom-in" data-aos-delay="600" id="logoimg" /></a>
+                            <a href="/home"><img src={image.logo} alt="" data-aos="zoom-in" data-aos-delay="600" id="logoimg" /></a>
                             {/* <a href="/"><img src={image.logotext} alt=""  id="logotext"/></a> */}
                         </div>
                     </div>
@@ -105,27 +105,26 @@ const Header = ()=>{
                                             <a href="/">Home</a>
                                         </li>
                                         <li>
-                                            <a href="/about">About us</a>
+                                            <a href="/about">About</a>
                                         </li>
                                         <li>
                                             <a href="/services">Services</a>
-                                        </li><li>
-                                            <a href="/services">Franchise</a>
                                         </li>
                                         <li>
-                                            <a href="/services">Shop</a>
+                                            <a href="/shop">Shop</a>
                                         </li>
                                         <li>
-                                            <a href="/services">Resources</a>
+                                            <a href="/blog">Insight & Resources</a>
                                         </li>
                                         <li>
-                                            <a href="/services">Contact</a>
+                                            <a href="/case-studies">Case Studies</a>
+                                        </li>
+                                        <li>
+                                            <a href="/contact">Contact</a>
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
-
-                                                        
+                            </div>                                                       
                         </div>
                     </div>
                 </div>

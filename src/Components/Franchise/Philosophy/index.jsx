@@ -66,10 +66,11 @@ const Philosophy = (props)=>{
                                                     <div className="slideno">{item.id}</div>
                                                 </div>
                                                 <div className="col-lg-8 col-12">
-                                                    <div className="slidetitles">
-                                                        <h3><b>{props.slidetitlehead}</b></h3>
-                                                        <h5>{props.slidetitlesubhead}</h5>                                            
+                                                    <div className="slidetitles" >
+                                                        <h3><b>{item.slidertitle}</b></h3>
+                                                        <h5>{item.slidetitlesubhead}</h5>                                            
                                                     </div>
+                                                    
                                                     <div className="row slidecontent">  
                                                         {item.sliderpoint.map(slideitem=>(
                                                             <div className="col-lg-6 col-12" key={slideitem.sliderid}>
@@ -91,7 +92,7 @@ const Philosophy = (props)=>{
                                                             ))
                                                         }
                                                         <div className="col-12 d-flex slidefoot">                                                
-                                                            <h5><span style={{color:'#ff4c00'}}>Deliverable</span>: Foundational Brand Strategy Report.</h5>                                                
+                                                            <h5><span style={{color:'#ff4c00'}}>Deliverable</span>: {item.deliverable}</h5>                                                
                                                         </div>
                                                     </div> 
                                                 </div>

@@ -17,6 +17,13 @@ import profileimg1 from './client1.png';
 import bgellipse from './bgellips.png';
 import cncellipse from './cnc-ellipse.png';
 import tabimg1 from './tabimg1.png';
+import tabimg2 from './tabimg2.png';
+import tabimg3 from './tabimg3.png';
+import tabimg4 from './tabimg4.png';
+import tabimg5 from './tabimg5.png';
+import tabimg6 from './tabimg6.png';
+import tabimg7 from './tabimg7.png';
+import tabimg8 from './tabimg8.png';
 import founderimg from './founderimg.png';
 import footerlogo from './Footerlogo.png';
 import blogp1 from './blogp1.png';
@@ -36,6 +43,9 @@ import abticon4 from './abticon4.png';
 import book from './red-hardcover-book-front-cover.png';
 import team1 from './team1.png';
 import team2 from './team2.png';
+import productimg1 from './productimg1.png';
+import productimg2 from './productimg2.png';
+
 
 export const image={
     logo,
@@ -58,6 +68,13 @@ export const image={
     cncellipse,
     abtbgellipse,
     tabimg1,
+    tabimg2,
+    tabimg3,
+    tabimg4,
+    tabimg5,
+    tabimg6,
+    tabimg7,
+    tabimg8,
     founderimg,
     footerlogo,
     blogp1,
@@ -76,4 +93,7 @@ export const image={
     book,
     team1,
     team2,
+    productimg1,
+    productimg2,
+
 }

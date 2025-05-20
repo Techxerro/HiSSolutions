@@ -8,6 +8,7 @@ const BlogCTASection =()=>{
             <CallToAction
                 head={ <>Ready to turn thought into action <br/>for your business?</>} 
                 primarybtn= "Contact Us"
+                primarybtnlink="/contact"
                 secondarybtn=""
                 img={image.cncellipse}
                 imgclassname="right-ellipse-bg"

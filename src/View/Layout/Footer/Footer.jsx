@@ -30,8 +30,7 @@ const Footer = ()=>{
                         </div>
                     </div>
                     <div className="col-lg-3 col-12">
-                        <div>   
-
+                        <div> 
                             <div className="footer-social">  
                                 <div className="d-flex gap-3 ">
                                     {/* Linkedin */}

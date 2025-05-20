@@ -64,7 +64,7 @@ const BlogsPreview=()=>{
                     ))}  
 
                     <div className="col-sm-6 col-12 d-flex align-items-center justify-content-center">   
-                        <div>
+                        <div className="arrow">
                             <svg
                                 className="animated-svg"
                                 width="501"

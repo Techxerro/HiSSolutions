@@ -56,7 +56,7 @@ const EdgeSection=()=>{
                             <p>At HIS Business Solutions, we don’t just talk about better businesses — <b>we build them with you.</b><br/> If you're ready to unlock your next stage of growth, we’re ready to lead the way.</p>
                             <h4>Discover how we can partner in your success. Contact us today.</h4>
                             <button className="btnprimary" data-aos="fade-up" data-aos-delay="600">
-                                Contact Us
+                               <a href="/contact">Contact Us</a>
                             </button>
                         </div>
                     </div>

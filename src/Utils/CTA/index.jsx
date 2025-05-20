@@ -14,8 +14,8 @@ const CallToAction = (props)=>{
                             {props.midcontent}                            
                             </div>
                             <div className="d-flex gap-4 justify-content-center" data-aos="fade-up">
-                                <button className="btnprimary">{props.primarybtn}</button>
-                                {props.secondarybtn ? <button className="btnsecondary">{props.secondarybtn}</button> : ''}
+                                <button className="btnprimary"> <a href={props.primarybtnlink}>{props.primarybtn}</a> </button>
+                                {props.secondarybtn ? <button className="btnsecondary"> <a href={props.secondarybtnlink}>{props.secondarybtn}</a></button> : ''}
                             </div>    
                             <img src={props.img} alt="" className={props.imgclassname}/>                        
                         </div>

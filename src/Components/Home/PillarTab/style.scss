@@ -1,5 +1,5 @@
 .pillartabsection{
-    padding:50px 0 100px;
+    padding:50px 0 0px;
     overflow:hidden;
     h1{
         font-size: 65px;
@@ -55,8 +55,8 @@
             scroll-margin-top: 70px;
             height:550px;
             padding:40px;
-            background: url('../../../Assets/img/tabimg1.png');
-            background-size:cover;
+            // background: url('../../../Assets/img/tabimg1.png');
+            background-size:cover!important;
             color:#fff;
             display: flex;
             align-items: end;
@@ -74,6 +74,9 @@
                 }
                 button{
                     margin-top:25px;
+                    a{
+                        color:#fff;
+                    }
                 }
             }
         }

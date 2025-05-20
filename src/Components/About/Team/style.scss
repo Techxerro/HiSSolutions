@@ -39,14 +39,48 @@
                 h1{
                     font-size: 55px;
                 }    
+            }
+            img{
+                margin-bottom:20px;
             } 
             .foundercontent{
                 padding-bottom: 0px;
+                p{
+                    font-size: 16px;
+                }                
+            }
+            p{
+                font-size: 16px;
             }
         }
     }
-    
 }
+
+@media (max-width:768px){ 
+    .team-section{
+        .container{   
+            .title{
+                h1{
+                    font-size: 55px;
+                }    
+            }
+            img{
+                margin-bottom:20px;
+                width:400px;
+            } 
+            .foundercontent{
+                padding-bottom: 0px;
+                p{
+                    font-size: 16px;
+                }                
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+}
+
 @media (max-width:560px) {
     .team-section{
         .container{
@@ -54,8 +88,7 @@
             img{            
                 width:100%;
                 padding:0 20px 20px;
-            }
-    
+            }    
             .foundercontent{
                 p{
                     font-size: 17px;

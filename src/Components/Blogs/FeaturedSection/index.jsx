@@ -35,7 +35,7 @@ const FeaturedSection =() =>{
                                         <h6>By Stephen O'Connor</h6>
                                         <p>A call to rethink quick fixes and build sustainable business frameworks that withstand real-world challenges.</p>
                                         <button className="btnprimary">
-                                            Comming Soon - Stay Tuned!
+                                           <a href="/shop">Comming Soon - Stay Tuned!</a>
                                         </button>
                                     </div>
                                 </div>
@@ -52,7 +52,7 @@ const FeaturedSection =() =>{
                                         <h6>By Stephen O'Connor</h6>
                                         <p>Timeless wisdom for today’s leaders navigating complexity, change, and cultural shifts.</p>
                                         <button className="btnprimary">
-                                            Comming Soon - Stay Tuned!
+                                            <a href="/shop">Comming Soon - Stay Tuned!</a>                                        
                                         </button>
                                     </div>
                                 </div>
@@ -60,7 +60,8 @@ const FeaturedSection =() =>{
                         </div>   
                         <div className="col-12 ft-fs pt-5 d-flex gap-5 align-items-center justify-content-center">
                             <h4 data-aos="fade-right" data-aos-anchor-placement="top-center"> Pre-Order or Learn More</h4> 
-                            <button className="btnprimary"data-aos="fade-left" data-aos-anchor-placement="top-center"> Like on this link to Pre-Order or Learn More </button>
+                            <button className="btnprimary"data-aos="fade-left" data-aos-anchor-placement="top-center"><a href="/shop">Like on this link to 
+                            Pre-Order or Learn More </a></button>
                         </div>                     
                     </div>
                 </div>

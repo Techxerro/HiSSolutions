@@ -32,13 +32,12 @@
     }    
 }
 
-@media (max-width:"1300px") {
-    .testimony-section{
-    
+@media (max-width:"1399px") and (min-width:"1301px") {
+    .testimony-section{    
         .testimony{
             img{
-                min-width:300px;
-                min-height:300px;
+                min-width: 280px;
+                min-height:280px;
             }
             .testimony-content{
                 p{
@@ -47,6 +46,31 @@
                 h4{
                     font-size: 24px;
                 }
+            }
+        }
+    
+    }
+}
+@media (max-width:"1300px") {
+    .testimony-section{    
+        .testimony{
+            img{
+                min-width: 280px;
+                min-height:280px;
+            }
+            .testimony-content{
+                p{
+                    font-size: 22px;
+                }
+                h4{
+                    font-size: 24px;
+                }
+            }
+        }
+        
+        .swiperbtn{
+            .swiper-button-prev,.swiper-button-next{
+                scale:0.8;
             }
         }
     
@@ -70,18 +94,19 @@
                     font-size: 22px;
                 }
             }
-        }
-    
+        }  
+        .swiperbtn{
+            display:none;
+        }    
     }
 }
 
 @media (max-width:"767px") {
-    .testimony-section{
-    
+    .testimony-section{    
         .testimony{
             img{
                 min-width:150px;
-                min-height:150px;
+                min-height:150px;                
             }
             .testimony-content{
                 p{
@@ -91,9 +116,9 @@
                     font-size: 20px;
                 }
             }
-        }
-    
+        }  
     }
+    
 }
 
 
@@ -109,8 +134,5 @@
                 padding-bottom:20px;
             }
         }
-    }
-    .swiperbtn{
-        display:none;
     }
 }

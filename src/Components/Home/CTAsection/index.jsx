@@ -8,7 +8,9 @@ const CTASection =()=>{
             <CallToAction
                 head={ <>Let’s create lasting<br/>results—together.</>} 
                 primarybtn= "Book Your Discovery Call"
+                primarybtnlink ="https://calendly.com/"
                 secondarybtn="Download Our Capabilities Deck"
+                secondarybtnlink=""
                 img={image.abtbgellipse}
                 imgclassname="left-ellipse-bg"
                 midcontent ={ 

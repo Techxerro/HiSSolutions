@@ -76,12 +76,44 @@
     }
 }
 
+@media (max-width:768px) {
+.edge-section{
+    .ct1{
+        .iconbox{            
+            .imgicon{
+                width:100px;
+                height:100px;
+            }
+            h4{
+                font-size: 22px;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        .box-wrapper-2{
+            .iconbox{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    
+    .cnc-ellipse{
+        position: absolute;
+        right:-10%;
+        top:35%;
+        z-index: 0;
+        width:60%;
+    }
+}
+
+}
 @media (max-width:560px) {
     .edge-section{
         padding:50px 15px;
         .ct1{
             padding-bottom: 25px;
-            .iconbox{     
+            .iconbox{    
                 
                 .imgicon{
                     width:80px;

@@ -13,10 +13,10 @@ const Team = ()=>{
                         </div>
                     </div>
                     <div className="row py-5">
-                        <div className="col-sm-4 col-12">
+                        <div className="col-xl-4 col-lg-4 col-12">
                             <img src={image.team1} alt="HiS founder" data-aos="zoom-in" data-aos-delay="400"/>
                         </div>
-                        <div className="col-sm-8 col-12 d-flex align-items-end">
+                        <div className="col-xl-8 col-lg-8 col-12 d-flex align-items-end">
                             <div className="foundercontent" data-aos="fade-left" data-aos-delay="600">
                                 <h5>Peter Baics</h5>
                                 <p><b>VP, Brand Operations – Fine Dining &amp; Experiential Concepts</b></p>
@@ -54,10 +54,10 @@ const Team = ()=>{
                         </div>
                     </div>
                     <div className="row py-5">
-                        <div className="col-sm-4 col-12">
+                        <div className="col-lg-4 col-12">
                             <img src={image.team2} alt="HiS founder" data-aos="zoom-in" data-aos-delay="400"/>
                         </div>
-                        <div className="col-sm-8 col-12 d-flex align-items-end">
+                        <div className="col-lg-8 col-12 d-flex align-items-end">
                             <div className="foundercontent" data-aos="fade-left" data-aos-delay="600">
                                 <h5>Sudesh Singh</h5>
                                 <p><b>VP, Brand Operations – QSR, Fast Casual &amp; Casual Dining</b></p>

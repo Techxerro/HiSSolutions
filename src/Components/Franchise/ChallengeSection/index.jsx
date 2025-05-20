@@ -16,8 +16,8 @@ const ChallengeSection = (props) =>{
                     <div className="row svg-pointers">
                         {props.challenge.map(issue => (
                             <div className="col-lg-4 col-md-6 col-12" key={issue.id}>
-                                <div className="d-flex gap-2">
-                                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <div className="d-flex gap-2" data-aos="fade-left" data-aos-delay="700">
+                                    <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" >
                                         <circle cx="50" cy="50" r="50" fill="#FF4C00"/>
                                         <path d="M44.3477 24H55.652L52.8259 50H47.1737L44.3477 24Z" fill="white"/>
                                         <path d="M44.3477 76H55.652L52.8259 50H47.1737L44.3477 76Z" fill="white"/>
@@ -35,7 +35,7 @@ const ChallengeSection = (props) =>{
                         
                         <div className="col-12">
                             <br/>
-                            <h4>{props.Footer}</h4> 
+                            <h4 data-aos="fade-up" data-aos-delay="700">{props.Footer}</h4> 
                         </div>
                         
                     </div>

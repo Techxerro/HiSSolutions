@@ -16,7 +16,7 @@ const AdditionalInsights = () =>{
 
                             <div className="d-flex gap-4 justify-content-center" data-aos="fade-right" data-aos-delay="1000">
                                 <h3><b>Learn more about our books</b></h3>
-                                <button className="btnprimary">Like on this link to Pre-Order or Learn More</button>
+                                <button className="btnprimary"><a href="/shop"> Like on this link to Pre-Order or Learn More</a></button>
                             </div>
                         </div>
                     </div>

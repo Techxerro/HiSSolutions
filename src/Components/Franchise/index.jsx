@@ -20,33 +20,39 @@ const FranchisePageSections = ()=>{
 
     const sliderservice= [
         {   id: '1', 
+            slidertitle: 'Brand Discovery & Positioning',
+            slidetitlesubhead: 'We start by uncovering what makes your business unique.',
             sliderpoint:[  
                 { sliderid: '1', text: 'Competitive landscape analysis'}, 
                 { sliderid: '2', text: 'Core values and mission articulation' },
                 { sliderid: '3', text: 'Target audience persona development' },
                 { sliderid: '4', text: 'Brand personality and tone definition' },
                 { sliderid: '5', text: 'Strategic positioning framework' }        
-            ]
+            ],
+            deliverable: 'Foundational Brand Strategy Report.',
         }, 
         {   id: '2', 
+            slidertitle: 'Brand Discovery & Positioning',
+            slidetitlesubhead: 'We start by uncovering what makes your business unique.',
             sliderpoint:[  
                 { sliderid: '1', text: 'A Competitive landscape analysis'}, 
                 { sliderid: '2', text: 'Core values and mission articulation' },
                 { sliderid: '3', text: 'Target audience persona development' },
                 { sliderid: '4', text: 'Brand personality and tone definition' },
                 { sliderid: '5', text: 'Strategic positioning framework' }        
-            ]
+            ],
+            deliverable: 'Foundational Brand Strategy Report.',
         },
     ]
 
-    return(
+    return( 
         <>
             <IntrosectionFranchise 
-            headone="Build a Brand That Resonates." 
-            headtwo="Design a Concept That Lasts."
-            description="At HIS Business Solutions, brand and concept development is more than just logos and taglines — it's about crafting an identity that 
-            connects, converts, and endures. We work with startups, scaling businesses, and legacy brands to define their positioning, create meaningful 
-            differentiation, and build concepts with lasting market relevance."
+                headone="Build a Brand That Resonates." 
+                headtwo="Design a Concept That Lasts."
+                description="At HIS Business Solutions, brand and concept development is more than just logos and taglines — it's about crafting an identity that 
+                connects, converts, and endures. We work with startups, scaling businesses, and legacy brands to define their positioning, create meaningful 
+                differentiation, and build concepts with lasting market relevance."
             />
             <ChallengeSection 
                 head="Why Good Ideas Fail Without a Strong Brand Foundation"
@@ -68,7 +74,9 @@ const FranchisePageSections = ()=>{
             <CallToAction 
                 head={ <>Ready to Build a Brand That <br/>Stands the Test of Time?</>} 
                 primarybtn= "Schedule a Free Consultation"
-                secondarybtn="Explore Our Full Franchise Solutions"                
+                primarybtnlink=""
+                secondarybtn="Explore Our Full Franchise Solutions"  
+                secondarybtnlink=""        
                 img={image.abtbgellipse}
                 imgclassname="left-ellipse-bg"  
             />
