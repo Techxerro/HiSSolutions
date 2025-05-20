@@ -19,12 +19,12 @@ const Home = ()=>{
         <>
             <HeroSection/>
             <BuiltSection/>
-            <Valuesection/>
-            <Brandsection/>
+            <Valuesection/> 
+            <CaseStudySlider/>
+            {/* <Brandsection/> */}
             <PillarTabs/>
             <TestimonySection/>
-            <CountdownSection/> 
-            <CaseStudySlider/>
+            <CountdownSection/>
             <FounderSection/>
             <CnCsection/>
             <FAQSection/>

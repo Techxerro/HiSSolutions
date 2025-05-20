@@ -21,7 +21,7 @@ const CaseStudySlider = ()=>{
                 <div className="container">
                     <div className="row head-philosophy justify-content-center">
                         <div className="col-lg-10 col-12 text-center">
-                            <h1 data-aos="fade-up" data-aos-delay="300">Case Study</h1>                            
+                            <h1 data-aos="fade-up" data-aos-delay="300">Case Studies</h1>                            
                         </div>
                     </div>
                     <div className="row slider-philosophy">
@@ -57,13 +57,17 @@ const CaseStudySlider = ()=>{
                                                 <div className="col-lg-10 col-12">
                                                     <h3>{item.title}</h3>
                                                     <p>{item.description}</p>
-                                                    <button className="btnprimary">{item.linkText}</button>
+                                                    <button className="btnprimary"> <a href={item.link}> {item.linkText}</a></button>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </SwiperSlide>
                             ))}
+                                {/* <div className="swiperbtn">
+                                    <div class="swiper-button-next"></div>
+                                    <div class="swiper-button-prev"></div>
+                                </div> */}
                         </Swiper>
 
                     </div>
